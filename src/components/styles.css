@@ -1,0 +1,20 @@
+.printable-content-container {
+  width: 100%;
+  font-family: 'Arial, sans-serif';
+  font-size: 12px;
+}
+
+.printable-resumen-container { 
+  font-family: 'Arial, sans-serif';
+  font-size: 14px;  
+}
+
+.btn-animated {
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-animated:hover {
+  transform: scale(1.3);   
+}
+
+ 
