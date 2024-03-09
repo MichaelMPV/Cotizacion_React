@@ -89,8 +89,17 @@ const PrintableContent = ({
 return (
   <div className="container printable-content-container" style={{ margin: '100px 100px 100px 100px' }}>
   <div className="row">
-    <div className="col">
-      <h2 className="m-0">Detalle de Cotización {`COT[${String(numCotizacion).padStart(8, '0')}]`}</h2>
+    <div className="col-12">
+      <h2 className="m-0">Cotización</h2>
+    </div>
+     <div className="col-6">
+      <h6 className="m-0">Cotizacion: {`COT[${String(numCotizacion).padStart(8, '0')}]`}</h6>
+    </div>
+     <div className="col-6"> 
+      <h6 className="m-0">Cliente: {nomCliente}</h6>
+    </div>
+    <div className="col-12">
+      <h5 className="m-0">Detalle de Cotización</h5>
     </div>
   </div>
   <div className="row mt-3">
